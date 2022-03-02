@@ -106,12 +106,22 @@
             <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.californium</groupId>
+            <artifactId>californium-core</artifactId>
+            <version>3.2.0</version>
+        </dependency>
     </dependencies>
 
     <repositories>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>repo.eclipse.org</id>
+            <name>Californium Repository - Releases</name>
+            <url>https://repo.eclipse.org/content/repositories/californium-releases/</url>
         </repository>
     </repositories>
 
